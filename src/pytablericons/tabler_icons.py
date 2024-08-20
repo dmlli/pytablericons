@@ -12,7 +12,7 @@ from .filled_icon import FilledIcon
 class TablerIcons:
 
     @staticmethod
-    def load(icon: OutlineIcon | FilledIcon, size: int = 24,
+    def load(icon, size: int = 24,
              color: str = '#FFF', stroke_width: float = 2.0) -> Image:
         """Load a specified Tabler icon into a Pillow Image
         with the option to provide a custom size, color, and stroke width
